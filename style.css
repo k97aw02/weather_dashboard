@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+nav {
+    float: left;
+    width: 20%;
+    display: block;
+}
+input{
+    width: 80%;
+}
+.search {
+    width: 60px;
+}
+ul {
+    padding: 0;
+}
+li {
+    margin: 0;
+    background-color:lightgray;
+    border: 1px solid darkgrey; 
+    color: white; 
+    cursor: pointer; 
+    width: 100%;     
+}
+button{
+    width: 100%;
+}
+main {
+    float: right;
+    width: 80%;
+    padding: 5%;
+
+}
+section{
+    height: 50%;
+}
+.city-section{
+    background-color: lightskyblue;
+    color: white;
+    width: 15em;
+}
