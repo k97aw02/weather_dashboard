@@ -31,7 +31,7 @@ button{
 main {
     float: right;
     width: 80%;
-    padding: 5%;
+    padding-left: 5%;
 
 }
 section{
@@ -41,4 +41,12 @@ section{
     background-color: lightskyblue;
     color: white;
     width: 15em;
+}
+.card{
+    display: -webkit-inline-box;
+}
+.card-body{
+    margin: 5px;
+    margin-right: 0;
+    background-color: royalblue;
 }

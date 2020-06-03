@@ -24,23 +24,21 @@
     </nav>
     <main>
         <section class="city-section">
-            <h2></h2>
+            <h3>Current Weather</h3>
             
                     <p id="icon" class="icon"></p>
-                    <p id="city-title"></p>
-                    <p id="temperature"></p>
-                    <p id="wind-speed"></p>
+                    <p id="city-title"> </p>
+                    <p id="temperature"> </p>
+                    <p id="wind-speed"> </p>
                     <p id="UV-index" class="badge"></p>
         </section>
-        <section>
-            <h2>5-Day Forecast</h2>
-            <ul>
-                
-            </ul>
+        <section id="five-day-section">
+            <h3>5-Day Forecast</h3>
+                <div class="card" id="five-day"></div>
         </section>
 
     </main>
-
+    <script>src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment-with-locales.min.js"</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
